@@ -15,7 +15,10 @@
     --bg-color: #fff;
     --second-bg-color: #eef3fc;
     --text-color: #030303;
-    --main-color: #3516bd;
+    --second-text-color:#fff;
+    --main-color: #1905ee;
+    /* --main-color: #eb4646; */
+
 }
 
 html {
@@ -475,11 +478,14 @@ span {
 
 .portfolio-layer h4 {
     font-size: 3rem;
+    color: var(--second-text-color);
 }
 
 .portfolio-layer p {
     font-size: 1.6rem;
     margin: 3rem 0 1rem;
+    color: var(--second-text-color);
+
 }
 
 .portfolio-layer a {
@@ -488,13 +494,13 @@ span {
     align-items: center;
     width: 5rem;
     height: 5rem;
-    background: var(--text-color);
+    background: var(--second-text-color);
     border-radius: 50%;
 }
 
 .portfolio-layer a i {
     font-size: 2rem;
-    color: var(--second-bg-color);
+    color: var(--text-color);
 }
 
 /* Portfolio End */
@@ -858,6 +864,7 @@ span {
 
 .footer-iconTop a i {
     font-size: 2rem;
+    color: var(--second-text-color);
 
 }
 
